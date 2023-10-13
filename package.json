@@ -1,0 +1,14 @@
+{
+  "name": "logindesigns_hacktober2023",
+  "version": "1.0.0",
+  "description": "Diseños de logins para contribucion con la comunidad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "Carolina Davila",
+  "license": "ISC"
+}
