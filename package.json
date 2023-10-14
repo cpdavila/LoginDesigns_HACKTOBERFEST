@@ -1,14 +1,23 @@
 {
   "name": "logindesigns_hacktober2023",
+  "type": "module",
   "version": "1.0.0",
   "description": "Diseños de logins para contribucion con la comunidad",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "login"
   ],
   "author": "Carolina Davila",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
